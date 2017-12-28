@@ -26,7 +26,7 @@ login_url = zalo_3rd_app_client.get_login_url()
 **Lấy AccessToken**
 ```
 code = 'put_your_code_here'
-access_token = zalo_3rd_app_client.get_access_token(code)
+access_token = zalo_3rd_app_client.get_access_token(code)['access_token']
 ```
 
 **Thông tin người dùng**
