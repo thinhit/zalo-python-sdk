@@ -13,7 +13,7 @@ pip install zalo-python-sdk
 ```
 from zalo.sdk.app import ZaloAppInfo, Zalo3rdAppClient
 
-zalo_info = ZaloAppInfo(app_id=your app id, secret_key="your app secret")
+zalo_info = ZaloAppInfo(app_id=your app id, secret_key="your app secret", callback_url="put your callback url here")
 zalo_3rd_app_client = Zalo3rdAppClient(zalo_info)
 ```
 
