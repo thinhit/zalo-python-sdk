@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup (
     name = 'zalo-python-sdk',
     packages = find_packages(),
-    version = '1.14',
+    version = '1.18',
     description = 'Python SDK for Zalo API',
     author = 'Nguyen Thuy Khanh Duy',
     author_email = 'duyntk@vng.com.vn',

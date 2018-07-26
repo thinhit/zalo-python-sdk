@@ -14,7 +14,6 @@ class ZaloStoreClient(ZaloBaseClient):
     def post(self, url, data):
         endpoint = "%s/%s/%s" % (APIConfig.DEFAULT_OA_API_BASE, APIConfig.DEFAULT_OA_API_VERSION, url)
         if 'file' in data:
-            print data['file']
             file = self.load_file(data['file'])
             timestamp = int(round(time.time() * 1000))
             params = {
